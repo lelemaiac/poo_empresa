@@ -35,11 +35,10 @@ class Empresa:
 empresa_1 = Empresa('Pandora', '18996062236', 'pandora@gmail.com', 100)
 empresa_2 = Empresa('Sephora', '18996062656', 'sephora@gmail.com', 125)
 
+
 #Get- receber informação
 #Set- envia informação
 #Is- verificação
-
-
 class Setor(Empresa):
     def __init__(self, nome, area):
         super().__init__(nome)
